@@ -72,12 +72,6 @@ const initPlayer1 = () => {
 }
 
 const finishGame = () => {
-    // isGameFinished = true
-    // const buttons = document.querySelectorAll('.button.action-button')
-
-    // Array.from(buttons).forEach((button) => {
-    //     button.disabled = true;
-    // })
 
     const pokemon1 = pokemons[random(0, pokemons.length - 1)]
     const pokemon2 = pokemons[random(0, pokemons.length - 1)]
